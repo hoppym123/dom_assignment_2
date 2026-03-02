@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile form validation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="imageContainer">
+        <label for="image">select an image</label>
+        <input type="file" id="file" accept="image/*" required>
+    </div>
+    <div class="container">
+        <h1>profile form validation</h1>
+    <form action="#" class="form">
+        
+        <div id="field">
+<label for="text">
+    <input type="text" id="nameInput" class="input" placeholder="enter your name" required>
+</label>
+<label for="number">
+    <input type="number" id="numberInput" class="input" placeholder="enter your number" required>
+</label>
+<label for="email">
+    <input type="email" id="emailInput" class="input"  placeholder="enter your email" required>
+</label>
+<label for="password">
+    <input type="password" id="passwordInput" class="input"  placeholder="enter your password" required>
+</label>
+<label for="confirm-password">
+    <input type="password" id="confirmPassword" class="input"  placeholder="confirm your password" required>
+</label>
+<label for="text">
+    <input type="text" id="address" class="input" placeholder="enter your address" required>
+</label>
+<label for="fileInput">
+    <input type="file" id="fileInput" class="input"  placeholder="Enter Your Certificate" required>
+</label>
+</div>
+
+    <button type="submit" id="btn">Submit</button>
+        <button type="reset" id="resetBtn">Reset</button>
+    
+
+ </form>
+ <p id="eOutput"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
